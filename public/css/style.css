@@ -1,9 +1,16 @@
-html, body {
-/*  background-image: url("../img/holiday_bg.gif")*/
+/*CSS Styling from this webpage
+https://gist.github.com/thebinarypenguin/4d45ffe87096e508800b5d11544bf2fa*/
+
+html, body{
+background-image:url("../img/holiday2.jpg");
 }
 
 table {
   border: 2px solid #000000;
+}
+
+h1 {
+    background-color: white;
 }
 
 td {
