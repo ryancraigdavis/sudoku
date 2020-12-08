@@ -1,0 +1,49 @@
+html, body {
+/*  background-image: url("../img/holiday_bg.gif")*/
+}
+
+table {
+  border: 2px solid #000000;
+}
+
+td {
+  border: 1px solid #000000;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+.container{
+    text-align: center;
+}
+
+.sudoku {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  color: #000000;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  background-color: #FFFFFF;
+  outline: none;
+}
+
+input:disabled {
+  background-color: #EEEEEE;
+}
+
+#c30,  #c31,  #c32, #c33            { border-top:    2px solid #000000; }
+#c34,  #c35,  #c36, #c37, #c38      { border-top:    2px solid #000000; }
+#c60,  #c61,  #c62, #c63            { border-top:    2px solid #000000; }
+#c64,  #c65,  #c66, #c67, #c68      { border-top:    2px solid #000000; }
+
+#c02,  #c12,  #c22, #c32            { border-right:    2px solid #000000; }
+#c42,  #c52,  #c62, #c72, #c82      { border-right:    2px solid #000000; }
+#c05,  #c15,  #c25, #c35            { border-right:    2px solid #000000; }
+#c45,  #c55,  #c65, #c75, #c85      { border-right:    2px solid #000000; }
